@@ -39,3 +39,28 @@ default로 설정되는 Systemd Target이다.
 2. /etc/systemd/system/multi-user.target.wants
  * symbolic link로 만들어야함
 
+
+
+# systemctl 명령어
+`systemctl [명령] [서비스명]`
+
+
+## systemctl 명령어 종류
+* start : 서비스 시작
+* stop : 서비스 중지
+* status : 서비스 상태 확인 (서비스가 구동 중인지 아닌지 알 수 있음)
+* restart : 서비스 재시작 (중지 -> 시작) : 보통 변경한 설정 후에 많이 사용
+* reload : 서비스를 중지하지 않고 설정 값을 반영 (서비스가 중지되면 안되는 경우 사용)
+* enable : 시스템이 재부팅하면 자동으로 서비스 실행하도록 등록
+* disable : enable 한 서비스 해제
+
+
+# 데몬 삭제 하는법
+1. systemctl stop [servicename]
+2. systemctl disable [servicename]
+3. rm /etc/systemd/system/[servicename]
+4. rm /etc/systemd/system/[servicename] # and symlinks that might be related
+5. rm /usr/lib/systemd/system/[servicename]
+6. rm /usr/lib/systemd/system/[servicename] # and symlinks that might be related
+7. systemctl daemon-reload
+8. systemctl reset-failed
