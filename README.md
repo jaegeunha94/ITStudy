@@ -32,6 +32,8 @@
 ### HTTP
 [Header - Upgrade](https://github.com/jaegeunha94/ITStudy/tree/090b4963b29b49c1f2d1f5e2f2ec6184d2cacb20/Network/HTTP/Header/Upgrade)
 
+[HTTP 2.0](https://github.com/jaegeunha94/ITStudy/tree/main/Network/HTTP/HTTP2.0)
+
 ## 🔖OS
 ### 리눅스
 [링크](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Link)
