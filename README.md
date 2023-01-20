@@ -28,11 +28,15 @@
 [IP Tables Failed Error](https://github.com/jaegeunha94/ITStudy/tree/main/Docker/Error/IPTables_Failed)
 
 
+## Network
+### HTTP
+[Header - Upgrade](https://github.com/jaegeunha94/ITStudy/tree/090b4963b29b49c1f2d1f5e2f2ec6184d2cacb20/Network/HTTP/Header/Upgrade)
+
 ## OS
 ### 리눅스
 [링크](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Link)
 
-[서비스](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Service
+[서비스](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Service)
 
 #### CentOS7
 [hostname](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/CentOS7/hostname)
@@ -41,6 +45,9 @@
 [bash](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Ubuntu/Bash)
 
 
+## Programming Language
+### Javascript
+[Throttling & Debouncing](https://github.com/jaegeunha94/ITStudy/tree/d3dc5e6d74de5094b3df649fd91d8ff5b07d29f0/ProgrammingLanguage/Javascript/Throttling_Debouncing)
 
 
 
