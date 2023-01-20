@@ -9,30 +9,30 @@
 
 
 # 🔎 카테고리
-## 알고리즘
+## 🔖알고리즘
 [해시](https://github.com/jaegeunha94/ITStudy/tree/main/Algorithm/Hash)  
 
 [시간복잡도](https://github.com/jaegeunha94/ITStudy/tree/main/Algorithm/Time%20Complexity)
 
 
-## 블록체인
+## 🔖블록체인
 [블록체인](https://github.com/jaegeunha94/ITStudy/tree/main/BlockChain)
 
 
-## CS
+## 🔖CS
 [Block Non_block](https://github.com/jaegeunha94/ITStudy/tree/main/CS/Block_NonBlock)
 
 
-## Docker
+## 🔖Docker
 ### Error
 [IP Tables Failed Error](https://github.com/jaegeunha94/ITStudy/tree/main/Docker/Error/IPTables_Failed)
 
 
-## Network
+## 🔖Network
 ### HTTP
 [Header - Upgrade](https://github.com/jaegeunha94/ITStudy/tree/090b4963b29b49c1f2d1f5e2f2ec6184d2cacb20/Network/HTTP/Header/Upgrade)
 
-## OS
+## 🔖OS
 ### 리눅스
 [링크](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Link)
 
@@ -45,7 +45,7 @@
 [bash](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Ubuntu/Bash)
 
 
-## Programming Language
+## 🔖Programming Language
 ### Javascript
 [Throttling & Debouncing](https://github.com/jaegeunha94/ITStudy/tree/d3dc5e6d74de5094b3df649fd91d8ff5b07d29f0/ProgrammingLanguage/Javascript/Throttling_Debouncing)
 
