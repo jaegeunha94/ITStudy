@@ -1,7 +1,36 @@
-# CloudHub
+# [CloudHub](https://github.com/snetsystems/cloudhub)
 
-## Commit 내역
+# Cloudhub Setting
+## 1. IDE
+### Visual Studio Code
+* 1.74.2
 
+
+## 2. 가상화
+### Virtual Box
+* VirtualBox-6.1.32-149290-Win
+
+## 3. 운영체제
+### CentOS
+* CentOS-7-x86_64-DVD-2009
+  * CentOS Linux release 7.9.2009 (Core)
+
+
+## 4. 프론트
+### node
+* node-v12.22.1-x64
+
+---
+
+# 작업
+## CentOS7
+### CentOS7 - NGinx
+* HTTP 2.0 적용
+* [NGinx에 WebSocket용 옵션 설정](https://github.com/jaegeunha94/ITStudy/blob/main/Network/HTTP/Header/Upgrade/README.md#nginx-websocket-%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C-%EC%82%AC%EC%9A%A9-%EC%8B%9C-conf-%ED%8C%8C%EC%9D%BC-%EC%84%A4%EC%A0%95)
+
+---
+
+# Commit 내역
 ### [Add an input filter to telegraf test function on UI. #348](https://github.com/snetsystems/cloudhub/commit/d08b08427a597106c55971a5c2f2f07c8eeaac48)
 * Telegraf Plugin Test 화면 추가
 
