@@ -47,5 +47,18 @@ Content-Type: text/plain
 
 
 
+# NGinx, WebSocket 프로토콜 사용 시 Conf 파일 설정
+```
+location WebSocket_URL {
+          proxy_http_version      1.1;
+          proxy_pass https://apps;
+          proxy_set_header       Upgrade $http_upgrade;
+          proxy_set_header       Connection "upgrade";
+          proxy_set_header Host $host;
+}
+```
+
+
+
 # 출처
 [j1mmyson](https://j1mmyson.github.io/posts/upgrade/)
