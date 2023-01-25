@@ -82,6 +82,10 @@
 #### Ubuntu
 [bash](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Ubuntu/Bash)
 
+## 🔖Server
+### Nginx
+[Nginx](https://github.com/jaegeunha94/ITStudy/tree/main/Server/Nginx)
+
 
 ## 🔖Programming Language
 ### Javascript
