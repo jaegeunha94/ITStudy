@@ -3,9 +3,20 @@
 
 
 # 📣 소개
-공부한 내용을 정리하는 곳입니다.  
-정리를 하면서 내가 부족한 부분을 되돌아보고  
-정리한 결과물을 보고 성취감을 느끼기 위해서 만들었습니다.
+공부한 내용을 정리하는 목적으로  
+만들게 되었습니다.
+
+대부분의 파일들은 
+참조해서 온 내용들을   
+그대로 정리하였습니다.
+
+그 이유는 잘 모르는 개념들을  
+내가 이해한 내용으로 바꾸려다
+잘못된 개념을 학습할 수 있기 때문입니다.
+
+이 깃허브의 최종 목표는
+잘 정리된 자료들을 하나의 문서로 취합해가면서  
+개념들을 정리해 나가는 것입니다.
 
 
 # 🔎 카테고리
@@ -21,6 +32,8 @@
 
 ## 🔖CS
 [Block Non_block](https://github.com/jaegeunha94/ITStudy/tree/main/CS/Block_NonBlock)
+
+[Encoding](https://github.com/jaegeunha94/ITStudy/tree/main/CS/Encoding)
 
 
 ## 🔖Docker
