@@ -116,6 +116,6 @@ Streaming은 Long Polling과 마찬가지로 처음에는 클라이언트에서 
 
 
 # 참조
-![우테코 - 코일의 Web Socket](https://www.youtube.com/watch?v=MPQHvwPxDUw)
+[우테코 - 코일의 Web Socket](https://www.youtube.com/watch?v=MPQHvwPxDUw)
 
-![hahan velog](https://velog.io/@hahan/Polling-Long-Polling-Streaming)
+[hahan velog](https://velog.io/@hahan/Polling-Long-Polling-Streaming)
