@@ -33,13 +33,13 @@
 
 # 🔎 카테고리
 ## 🔖알고리즘
-[해시](https://github.com/jaegeunha94/ITStudy/tree/main/Algorithm/Hash)  
+[Hash](https://github.com/jaegeunha94/ITStudy/tree/main/Algorithm/Hash)  
 
-[시간복잡도](https://github.com/jaegeunha94/ITStudy/tree/main/Algorithm/Time%20Complexity)
+[Time Complexity](https://github.com/jaegeunha94/ITStudy/tree/main/Algorithm/Time%20Complexity)
 
 
 ## 🔖블록체인
-[블록체인](https://github.com/jaegeunha94/ITStudy/tree/main/BlockChain)
+[Block Chain](https://github.com/jaegeunha94/ITStudy/tree/main/BlockChain)
 
 
 ## 🔖CS
@@ -75,11 +75,13 @@
 
 ## 🔖OS
 ### 리눅스
-[링크](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Link)
+[Link](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Link)
+
+[Log - LogRotate](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Log/Logrotate)
 
 [Screen](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Screen)
 
-[서비스](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Service)
+[Service](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Service)
 
 #### CentOS7
 [hostname](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/CentOS7/hostname)
@@ -100,6 +102,5 @@
 [Jest](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Javascript/Jest)
 
 [Throttling & Debouncing](https://github.com/jaegeunha94/ITStudy/tree/d3dc5e6d74de5094b3df649fd91d8ff5b07d29f0/ProgrammingLanguage/Javascript/Throttling_Debouncing)
-
 
 
