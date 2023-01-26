@@ -66,7 +66,7 @@ shell -$SHELL
 Commands | 설명
 ---|---
 screen -S 세션명 | 세션 생성
-Ctrl + a: Ctrl+a A | 현재 screen의 이름을 정한다. (나중에 Ctrl+a w 나 Ctrl+a "로 볼때 이름이 다 똑같아서 정의해 놓는게 정신건강에 좋다)
+Ctrl+a A | 현재 screen의 이름을 정한다. 
 Ctrl+a c | screen에서 새창 띄우기
 Ctrl+a k | 현재 screen 죽이기.
 Ctrl+a a | 바로 전 창으로
@@ -84,11 +84,11 @@ Ctrl+a k  | 스크린 닫기
 Ctrl+a ESC, Ctrl+a [   | 화면 스크롤
 Ctrl+a ] | 붙여넣기.
 Ctrl+a S  | 화면 수평 분할
-Ctrl+a | 화면 수직 분할
-Ctrl + a | resize
-Ctrl + a | fit; fit screen size to new terminal size
-Ctrl +a | remove  remove region
+Ctrl+a \| | 화면 수직 분할
+Ctrl+a: reisze | resize
+Ctrl+a: fit | fit screen size to new terminal size
+Ctrl+a: remove | remove region
 Ctrl+a Q | 현재 region을 제외한 나머지 숨기기
-Ctrl+ a tab | 화면 분할 이동
-Ctrl+a, | 명령행 모드로 전환
+Ctrl+a tab | 화면 분할 이동
+Ctrl+a \: | 명령행 모드로 전환
 Ctrl+ X | 현재 화면 닫기
