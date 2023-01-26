@@ -10,8 +10,14 @@
 
 ![screen](./screen.PNG)
 
-1. yum install screen
-2. screen 환경설정하기
+## screen 설치
+1) Centos 등 (Redhat 계열)  
+yum install screen
+
+2) Ubuntu 등 (Debian 계열)  
+apt-get install screen
+
+## screen 환경설정하기
 
 `vi ~/.screenrc`
 
