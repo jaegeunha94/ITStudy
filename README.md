@@ -74,6 +74,8 @@
 ### 리눅스
 [링크](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Link)
 
+[Screen](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Screen)
+
 [서비스](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Service)
 
 #### CentOS7
