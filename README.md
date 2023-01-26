@@ -91,6 +91,7 @@
 ### Nginx
 [Nginx](https://github.com/jaegeunha94/ITStudy/tree/main/Server/Nginx)
 
+[Nginx Configuration](https://github.com/jaegeunha94/ITStudy/tree/main/Server/Nginx/Configuration)
 
 ## 🔖Programming Language
 ### Javascript
