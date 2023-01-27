@@ -103,4 +103,6 @@
 
 [Throttling & Debouncing](https://github.com/jaegeunha94/ITStudy/tree/d3dc5e6d74de5094b3df649fd91d8ff5b07d29f0/ProgrammingLanguage/Javascript/Throttling_Debouncing)
 
+### Python
+[Miniconda](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Python/Miniconda)
 
