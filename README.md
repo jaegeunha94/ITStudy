@@ -99,6 +99,8 @@
 
 
 ## 🔖Performance
+[DOM - Reflow, Repaint](https://github.com/jaegeunha94/ITStudy/tree/main/Performance/DOM/Reflow_Repaint)
+
 [Image](https://github.com/jaegeunha94/ITStudy/tree/main/Performance/Image)
 
 [React](https://github.com/jaegeunha94/ITStudy/tree/main/Performance/React)
