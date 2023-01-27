@@ -77,6 +77,8 @@
 ### 리눅스
 [Link](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Link)
 
+[Log](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Log)
+
 [Log - LogRotate](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Log/Logrotate)
 
 [Screen](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Screen)
