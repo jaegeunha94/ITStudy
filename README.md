@@ -99,8 +99,9 @@
 
 
 ## 🔖Performance
-[Image Performance](https://github.com/jaegeunha94/ITStudy/tree/main/Performance/Image)
+[Image](https://github.com/jaegeunha94/ITStudy/tree/main/Performance/Image)
 
+[React](https://github.com/jaegeunha94/ITStudy/tree/main/Performance/React)
 
 ## 🔖Programming Language
 ### Javascript
