@@ -58,10 +58,10 @@ document.getElementById('myList').appendChild(fragment)
 ### 4. 랜더 트리 변경을 모았다가 한번에 처리하기
 * 리플로우마다 다시 계산하려면 비용이 많이 들기 때문에 브라우저 대부분은 랜더 트리변경을 큐에 모았다가 한번에 처리하는 방식으로 리플로우를 최적화합니다.
 * 리플로우가 발생하는 렌더트리 강제 변경
- - 오프셋 offsetTop, offsetLeft, offsetWidth, offsetHeight
- - 스크롤 scrollTop, scrollLeft, scrollWidth, scrollHeight
- - 클라이언트 clientTop, clientLeft, clientWidth, clientheight
- - getComputedStyle() (IE에서는 currentStyle 사용)
+  - 오프셋 offsetTop, offsetLeft, offsetWidth, offsetHeight
+  - 스크롤 scrollTop, scrollLeft, scrollWidth, scrollHeight
+  - 클라이언트 clientTop, clientLeft, clientWidth, clientheight
+  - getComputedStyle() (IE에서는 currentStyle 사용)
 * 이런 속성과 메서드에서 반환하는 레이아웃 정보는 현재 상태를 그대로 반영해야 하므로 브라우저는 정확한 값을 반환하기 위해 랜더링 큐에 대기중인 변경을 바로 실행하고 리플로우를 실행합니다.
 * 스타일을 바꾸는 도중에는 앞에 나열한 속성을 쓰지 않는 것이 최선입니다
 * 요청한 레이아웃 정보가  최근에 변경되지 않은 것이거나, 심지어 전혀 관계가 없을 때도 위에 나열한 속성은 랜더링 큐를 비웁니다.
