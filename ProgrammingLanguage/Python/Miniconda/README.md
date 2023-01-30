@@ -59,12 +59,28 @@ Installs Miniconda3 py39_4.11.0
 
 콘다의 설치 경로가 환경 변수에 들어가 있지 않는다.
 
-이 경우에 .bashrc 파일에 설치 경로를 추가해준다.    
-`export PATH=$HOME/miniconda3/bin:$PATH`
+
+### 1. 수동으로 환경 변수 등록하는 법
+.bashrc 파일에 설치 경로를 추가해준다.    
+
+`export PATH=$Conda_설치_경로/miniconda3/bin:$PATH`
  
- 
-만약 쉘 시작시 콘다의 기본 환경을 비활성화 하려면  
-아래의 명령어를 입력한다.  
+
+### 2. conda init으로 환경변수 등록하는 법
+conda 환경 변수 설정을 위해 conda init 명령어를 입력해야 합니다.
+
+`$Conda_설치_경로/miniconda3/bin/conda init`
+
+> Zsh의 경우 아래의 명령어를 입력  
+> \$Conda_설치_경로/miniconda3/bin/conda init zsh
+
+### conda 기본 환경을 비활성화
+
+conda init으로 환경 변수를 등록하면  
+conda 기본 환경(base)이  활성화 됩니다.
+
+기본 환경을 비활성화 하려면 아래의 명령어를 입력합니다.
+
 `conda config --set auto_activate_base false`
 
 
