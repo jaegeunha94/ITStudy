@@ -61,6 +61,8 @@
 [Prettier](https://github.com/jaegeunha94/ITStudy/tree/main/Frontend/Code_Formatter/Prettier)
 
 ## 🔖Network
+[DNS](https://github.com/jaegeunha94/ITStudy/tree/main/Network/DNS)
+
 [IPsec](https://github.com/jaegeunha94/ITStudy/tree/main/Network/Security/IPsec)
 
 [Socket](https://github.com/jaegeunha94/ITStudy/tree/main/Network/Socket)
