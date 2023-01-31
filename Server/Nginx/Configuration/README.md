@@ -36,13 +36,13 @@ server {
 
 ## nginx.conf 위치
 
-Nginx와 그 모듈들이 동작하는 방식은 ConfigurationFile에 의해서 결정되는데요.
+Nginx와 그 모듈들이 동작하는 방식은 ConfigurationFile에 의해서 결정된다.
 
-이것의 위치는 아래 세가지 중 하나인데요.
+이것의 위치는 아래 세가지 중 하나다.
 
-설치방법에 따라서 디렉토리의 위치가 바뀌게 됩니다.
+설치방법에 따라서 디렉토리의 위치가 바뀌게 된다.
 
-일반적으로 많이 사용하는 apt-get을 이용할 경우는 첫번째 "/etc/nginx"에서 찾을 수 있구요.
+일반적으로 많이 사용하는 apt-get을 이용할 경우는 첫번째 "/etc/nginx"에서 찾을 수 있.
 
 1. /etc/nginx
 2. /usr/local/nginx/conf
