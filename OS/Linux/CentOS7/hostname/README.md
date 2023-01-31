@@ -2,34 +2,34 @@
 
 ## 1. CentOS7 hostname 변경 (Runtime)
 Runtime에 hostname을  
-변경하는 방식입니다.
+변경하는 방식이다.
 
 Runtime에 hostname이 바뀌지만  
 일시 적용이기 때문에  
-재부팅 후 hostname이 원래대로 돌아갑니다.
+재부팅 후 hostname이 원래대로 돌아간다.
 
 영구 반영을 하려면  
-\/etc/hostname 파일을 수정해야 합니다.
+\/etc/hostname 파일을 수정해야 한다.
 
 
 아래의 명령어를 치면  
-Runtime에 hostname 이 변경됩니다.
+Runtime에 hostname 이 변경된다.
 
 
 `echo "사용할 hostname" > /proc/sys/kernel/hostname`
 
 
 변경된 hostname은 exit를 입력하여   
-로그아웃한 뒤에 보입니다.
+로그아웃한 뒤에 보인다.
 
 
 ## 2. CentOS7 hostname 변경 (영구 적용, 재부팅 필요)
 hostname을 영구 반영하는 방식은  
-두 가지가 있습니다.
+두 가지가 있다.
 
 다만, 두 가지 방식 모두  
 재부팅 후 적용이 되기 때문에  
-아래의 방식을 적용 후 재부팅을 하시면 되겠습니다.
+아래의 방식을 적용 후 재부팅을 하면 된다.
 
 
 ### 방식 1
