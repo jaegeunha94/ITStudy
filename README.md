@@ -111,6 +111,8 @@
 
 ## 🔖Programming Language
 ### Javascript
+[Binary Data](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Javascript/BinaryData)
+
 [Engyme](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Javascript/Jest/Engyme)
 
 [Path](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Javascript/Path)
