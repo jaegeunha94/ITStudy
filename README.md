@@ -79,6 +79,8 @@
 ### 리눅스
 [Alias](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Alias)
 
+[Bash - IFS](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Bash/IFS)
+
 [File - Own](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/File/Own)
 
 [Link](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Link)
