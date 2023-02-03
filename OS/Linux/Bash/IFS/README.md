@@ -124,3 +124,7 @@ java programming
 python programming
 c programming
 ````
+
+
+# 참조
+[inpa tistory](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-IFSInternal-Field-Separator-%EC%95%8C%EA%B8%B0-%EC%89%BD%EA%B2%8C-%EC%A0%95%EB%A6%AC)
