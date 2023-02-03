@@ -77,6 +77,8 @@
 
 ## 🔖OS
 ### 리눅스
+[File - Own](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/File/Own)
+
 [Link](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Link)
 
 [Log](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Log)
