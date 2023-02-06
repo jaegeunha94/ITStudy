@@ -137,6 +137,8 @@
 
 [Script Tag](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/HTML/Script-Tag)
 
+[tandard-Quirks](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/HTML/Standard-Quirks)
+
 ### Python
 [Miniconda](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Python/Miniconda)
 
