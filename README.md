@@ -137,6 +137,8 @@
 
 [Script Tag](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/HTML/Script-Tag)
 
+[Semantic](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/HTML/Semantic)
+
 [Standard-Quirks](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/HTML/Standard-Quirks)
 
 [data-](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/HTML/data-)
