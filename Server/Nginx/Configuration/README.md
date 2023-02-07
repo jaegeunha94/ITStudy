@@ -181,6 +181,36 @@ Context: http, server, location
 ```
 
 
+## [9. ssl_protocols](http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_ssl_protocols)
+```
+ssl_protocols TLSv1.2 TLSv1.1 TLSv1;
+```
+
+### SSL 또는 TLS를 사용해야 합니까?
+SSL 2.0 및 3.0 모두 IETF에 의해 사용 중지되었습니다     
+(각각 2011년 및 2015년). 폐기된 SSL 프로토콜   
+(예 : POODLE, DROWN)에서 수년동안 취약점이 발견되어 계속해서 개선되고 있습니다.   
+
+대부분의 최신 브라우저는 이전 프로토콜을 사용하는 웹서버를 만날 때  
+사용자 환경이 저하될 수 있습니다   
+(예 : URL 표시 줄의 자물쇠 또는 보안 경고). 이러한 이유로 서버 구성에서  
+SSL 2.0 및 3.0을 비활성화해야 하며 TLS 프로토콜만 사용하도록 설정해야 합니다.
+
+인증서는 프로토콜과 동일하지 않습니다.
+
+누구든지 기존 SSL 인증서를 TLS 인증서로 대체해야 한다는 걱정을 하기 전에    
+인증서가 프로토콜에 의존하지 않는다는 점에 유의해야 합니다.    
+
+많은 공급 업체가 "SSL / TLS 인증서"라는 문구를 사용하는 경향이 있지만    
+프로토콜은 인증서 자체가 아니라 서버 구성에 따라 결정되므로    
+"SSL 및 TLS와 함께 사용할 인증서"라고 하는 것이 더 정확할 수 있습니다.
+
+더 많은 사람들이 익숙한 용어이기 때문에 SSL 인증서라고 하는 인증서를 계속 볼 수는 있지만    
+업계 전반에 TLS 용어 사용이 늘어나기 시작했습니다.    
+SSL / TLS는 더 많은 사람들이 TLS에 익숙해질 때까지 공통적인 절충안입니다.
+
+
+
 # 참고
 
 [hyeon9mak github](https://hyeon9mak.github.io/nginx-upstream-multi-server)
