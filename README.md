@@ -102,6 +102,8 @@
 
 [Time - Timestamp](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Time/Timestamp)
 
+[User](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/User)
+
 #### CentOS7
 [hostname](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/CentOS7/hostname)
 
