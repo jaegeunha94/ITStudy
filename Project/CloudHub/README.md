@@ -1,6 +1,9 @@
 # [CloudHub](https://github.com/snetsystems/cloudhub)
+클라우드 허브 제품은 서버, 어플리케이션, 가상 머신, 쿠버네티스 등을 모니터링해주는 제품,  
+또한 모니터링한 데이터를 시각화하여 보여주고 알람을 설정할 수 있음
 
-# Cloudhub Setting
+
+# 개발 환경
 ## 1. IDE
 ### Visual Studio Code
 * 1.74.2
@@ -22,6 +25,11 @@
 
 ### React
 * ^16.12.0
+
+
+## 5. 백엔드
+### go 
+* 1.16.x
 
 ---
 
@@ -47,21 +55,36 @@
 ### [Move topology save button to the back of export button #351](https://github.com/snetsystems/cloudhub/commit/5be3cad4cbc03946523d0a54b84de02f1808fa25)
 * Topology 탭에 export 버튼 위치 변경
 
-### [At 371 Change logics of Test and Apply buttons in Agent Configuration](https://github.com/snetsystems/cloudhub/commit/38c15fb53cc15767ed792ed04a59ab897fb3f643)
+### [Change logics of Test and Apply buttons in Agent Configuration](https://github.com/snetsystems/cloudhub/commit/38c15fb53cc15767ed792ed04a59ab897fb3f643)
 * AgentConfiguration 화면의 Test 및 Apply 로직 수정
 
-### [At #362 Add Toml Basic Toggle Radio Button in ServiceConfig](https://github.com/snetsystems/cloudhub/commit/717dc89f876480985dcd21ba1d02d4c2c23b2959)
+### [Add Toml Basic Toggle Radio Button in ServiceConfig](https://github.com/snetsystems/cloudhub/commit/717dc89f876480985dcd21ba1d02d4c2c23b2959)
 * ServiceConfig 탭의 토글 버튼과 기능 추가
 
 ### [Add testing cloud input plugin before writing telegraf conf file in ServiceConfig](https://github.com/snetsystems/cloudhub/commit/6488e96de9dc334e43fa7e3221b3751633134db3)
 * Cloud Input Plugin 적용 전 Telegraf 테스트 로직 후 성공 시 Conf 파일 적용하기
 
-### [At #371 Fix Telegraf test filename in AgentConfiguration](https://github.com/snetsystems/cloudhub/commit/f475386dfcd81a16c16cfbe54317a5cf9b2d7f15)
+### [Fix Telegraf test filename in AgentConfiguration](https://github.com/snetsystems/cloudhub/commit/f475386dfcd81a16c16cfbe54317a5cf9b2d7f15)
 * AgentConfiguration 탭의 Telegraf Test File 명 변경
 
-### [At #362: Fix Telegraf test filename in ServiceConfig](https://github.com/snetsystems/cloudhub/commit/16eb9c8b59ac5fc1cf13b690661863d55c0c2c1c)
+### [Fix Telegraf test filename in ServiceConfig](https://github.com/snetsystems/cloudhub/commit/16eb9c8b59ac5fc1cf13b690661863d55c0c2c1c)
 * ServiceConfig 탭의 Telegraf Test File 명 변경
 
 
-### [At #362 Fix Remove checking statusText when response status is 200 in ServiceConfig, AgentControl and GridLayoutRenderer](https://github.com/snetsystems/cloudhub/commit/46bf191c032f3f49b3920854e50f7083e2a5c823)
+### [Fix Remove checking statusText when response status is 200 in ServiceConfig, AgentControl and GridLayoutRenderer](https://github.com/snetsystems/cloudhub/commit/46bf191c032f3f49b3920854e50f7083e2a5c823)
 * NGinx 적용 후 변경된 response status에 맞게 분기문 변경
+
+
+### [Add Collector Server Filtering in AgentConfiguration, ServiceConfig](https://github.com/snetsystems/cloudhub/commit/645094cc662c54daf7e20e58ad3aea1842adbfb7)
+* AgentConfiguration 탭과 ServiceConfig 탭에 Collector Server를 HostName으로 필터링하는 기능 추가
+
+
+### [Add selecting IP feature in AgentMinions Console](https://github.com/snetsystems/cloudhub/commit/a067b0c2cf44b2a279b5ca5ac9dc72971d3d0430)
+* Agent Minions 탭에서 Conosle을 클릭할 때 IP 선택할 수 있는 기능 추가
+
+### [Modify API Multi Request Logic not to transfer the token of salt to the client](https://github.com/snetsystems/cloudhub/commit/702dfccde62bb4be69d296ee9cd67c11c4bc75e0)
+* Salt API를 Multi로 호출하는 로직 수정
+
+
+### [Add InsecureSkipVerify Option in Salt Reverse Proxy](https://github.com/snetsystems/cloudhub/commit/f4790f0375428c9f9c4b03f2158e774b85e4b10e)
+* Salt API 호출 시 HTTPS 적용에 개발자 인증서를 사용하기 때문에 InsecureSkipVerify 옵션을 넣어, 인증서 Verify 작업을 Skip
