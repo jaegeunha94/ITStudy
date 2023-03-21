@@ -47,10 +47,10 @@
 * Telegraf Plugin Test 화면 추가
 
 ### [Prevent writing telegraf.conf file when conf file isn't changed in telegraf test. #348](https://github.com/snetsystems/cloudhub/commit/84baa90090b01306ba235de465362df956346c91)
-* telegraf conf 파일 변경되지 않았을 때 telegraf conf 파일 덮어쓰는 동작 막기
+* telegraf conf 파일 변경되지 않았을 때 telegraf conf 파일 덮어쓰는 동작 막는 로직 추가
 
 ### [Add the export/import function of topology map. #351](https://github.com/snetsystems/cloudhub/commit/313033480edf06bfac67720d66345221b5fd3f55)
-* Topology 탭에 import 및 export 기능 추가
+* Topology 탭에 import 및 export UI 및 기능 추가
 
 ### [Move topology save button to the back of export button #351](https://github.com/snetsystems/cloudhub/commit/5be3cad4cbc03946523d0a54b84de02f1808fa25)
 * Topology 탭에 export 버튼 위치 변경
@@ -59,10 +59,10 @@
 * AgentConfiguration 화면의 Test 및 Apply 로직 수정
 
 ### [Add Toml Basic Toggle Radio Button in ServiceConfig](https://github.com/snetsystems/cloudhub/commit/717dc89f876480985dcd21ba1d02d4c2c23b2959)
-* ServiceConfig 탭의 토글 버튼과 기능 추가
+* ServiceConfig 탭의 토글 버튼 UI와 그에 맞는 기능 추가
 
 ### [Add testing cloud input plugin before writing telegraf conf file in ServiceConfig](https://github.com/snetsystems/cloudhub/commit/6488e96de9dc334e43fa7e3221b3751633134db3)
-* Cloud Input Plugin 적용 전 Telegraf 테스트 로직 후 성공 시 Conf 파일 적용하기
+* Cloud Input Plugin 적용 전 Telegraf 테스트 로직 후 성공 시 Conf 파일 적용하는 로직 추가
 
 ### [Fix Telegraf test filename in AgentConfiguration](https://github.com/snetsystems/cloudhub/commit/f475386dfcd81a16c16cfbe54317a5cf9b2d7f15)
 * AgentConfiguration 탭의 Telegraf Test File 명 변경
@@ -80,11 +80,15 @@
 
 
 ### [Add selecting IP feature in AgentMinions Console](https://github.com/snetsystems/cloudhub/commit/a067b0c2cf44b2a279b5ca5ac9dc72971d3d0430)
-* Agent Minions 탭에서 Conosle을 클릭할 때 IP 선택할 수 있는 기능 추가
+* Agent Minions 탭에서 Conosle을 클릭할 때 IP 선택할 수 있는 UI 추가
 
 ### [Modify API Multi Request Logic not to transfer the token of salt to the client](https://github.com/snetsystems/cloudhub/commit/702dfccde62bb4be69d296ee9cd67c11c4bc75e0)
-* Salt API를 Multi로 호출하는 로직 수정
+* Salt API를 Multi로 호출하는 함수 로직 수정
 
 
 ### [Add InsecureSkipVerify Option in Salt Reverse Proxy](https://github.com/snetsystems/cloudhub/commit/f4790f0375428c9f9c4b03f2158e774b85e4b10e)
-* Salt API 호출 시 HTTPS 적용에 개발자 인증서를 사용하기 때문에 InsecureSkipVerify 옵션을 넣어, 인증서 Verify 작업을 Skip
+* Salt API 호출 시 HTTPS 적용에 개발자 인증서를 사용하기 때문에 InsecureSkipVerify 옵션을 넣어, 인증서 Verify 작업을 Skip하는 로직 추가
+
+
+### [Add Support OS ToolTip in Collector Control Tab](https://github.com/snetsystems/cloudhub/commit/6478ca453aaf0f29c731484ada33c3efcafac75b)
+* Collector Control Tab에서 OS 운영체제 지원 범위 알려주는 ToolTip UI 추가
