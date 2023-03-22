@@ -118,6 +118,8 @@
 
 [Nginx Configuration](https://github.com/jaegeunha94/ITStudy/tree/main/Server/Nginx/Configuration)
 
+[Nginx KeepAlived](https://github.com/jaegeunha94/ITStudy/tree/main/Server/Nginx/LoadBalencer/KeepAlived)
+
 
 ## 🔖Performance
 [DOM - Reflow, Repaint](https://github.com/jaegeunha94/ITStudy/tree/main/Performance/DOM/Reflow_Repaint)
