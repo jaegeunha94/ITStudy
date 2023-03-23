@@ -2,8 +2,59 @@
 클라우드 허브 제품은 서버, 어플리케이션, 가상 머신, 쿠버네티스 등을 모니터링해주는 제품,  
 또한 모니터링한 데이터를 시각화하여 보여주고 알람을 설정할 수 있음
 
+# Cloudhub 제품 구성
+## 1. SaltStack
+인프라의 규모가 커질 수록 서버 설치와 설정에 대한 부담이 늘어날 때 (특히 트래픽이 급격히 늘어나는 경우)  
+서버를 구축하기 위해서 대규모 인프라를 관리하기 위한 자동화 관리 시스템이다. 
 
-# 개발 환경
+### Salt-Master
+* Saltstack에서 Server 역할을 담당한다. 
+* Master는 등록된 Minion 에게 명령을 publishing 하고 그 결과를 취합하여 보여주는 역할이다.  
+* 1대의 single master가 minion 수천대까지 관리 가능하다. 
+
+### Salt-Minion
+* Agent의 역할이며, 구성 자동화를 하기 위한 대상 서버에 설치하면 된다.  
+* Master의 명령을 기다리고 있다가 명령이 오면 그에 맞춰 작업을 수행하게 된다. 
+* 만약, 서버에 minion을 설치하기 어려운 상황이라면 Ansible 처럼 SSH로 명령 push가 가능하게도 지원된다.
+
+### ZeroMQ
+* Salt-master와 Salt-minion 간 통신에 ZeroMQ 라는 비동기 메시징 라이브러리를 사용한다.
+* 따로 설치해야 하는 것은 아니며 Salt-master를 설치하면 zeroMQ도 함께 설치 된다. 
+* publish Port로 4505 / Return Port 로 4506 을 사용한다. (포트 수정 가능)
+
+
+## 2. Telegraf
+* 데이터 수집 에이전트
+* 플러그인을 기반으로 데이터 수집 가능
+
+### Telegraf 플러그인 종류
+#### Input Plugin
+* collect metrics from the system, services, or 3rd party APIs
+
+#### Processor Plugins 
+* transform, decorate, and/or filter metrics
+
+
+#### Aggregator Plugins 
+* create aggregate metrics (e.g. mean, min, max, quantiles, etc.)
+
+
+#### Output Plugins write metrics to various destinations
+* write metrics to various destinations
+
+
+## 3. InfluxDB 
+* InfluxDB는 시계열 데이터베이스
+* Time Seriese Data(시계열 데이터)는 시간에 따라 저장된 데이터
+* 시계열 데이터베이스는 '하나 이상의 시간'과 '하나 이상의 값' 쌍을 통해 시계열을 저장하고 서비스하는데 최적화된 소프트웨어 시스템
+
+
+## 4. Cloudhub
+클라우드 허브 제품은 서버, 어플리케이션, 가상 머신, 쿠버네티스 등을 모니터링해주는 제품,  
+또한 모니터링한 데이터를 시각화하여 보여주고 알람을 설정할 수 있음
+
+
+# Cloudhub 개발 환경
 ## 1. IDE
 ### Visual Studio Code
 * 1.74.2
@@ -31,7 +82,6 @@
 ### go 
 * 1.16.x
 
----
 
 # 작업
 ## CentOS7
@@ -69,7 +119,6 @@
 
 ### [Fix Telegraf test filename in ServiceConfig](https://github.com/snetsystems/cloudhub/commit/16eb9c8b59ac5fc1cf13b690661863d55c0c2c1c)
 * ServiceConfig 탭의 Telegraf Test File 명 변경
-
 
 ### [Fix Remove checking statusText when response status is 200 in ServiceConfig, AgentControl and GridLayoutRenderer](https://github.com/snetsystems/cloudhub/commit/46bf191c032f3f49b3920854e50f7083e2a5c823)
 * NGinx 적용 후 변경된 response status에 맞게 분기문 변경
