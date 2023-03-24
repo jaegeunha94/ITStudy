@@ -1,6 +1,24 @@
 # [CloudHub](https://github.com/snetsystems/cloudhub)
-클라우드 허브 제품은 서버, 어플리케이션, 가상 머신, 쿠버네티스 등을 모니터링해주는 제품,  
-또한 모니터링한 데이터를 시각화하여 보여주고 알람을 설정할 수 있음
+운영하고 있는 대상 장비 혹은 Cloud 솔루션
+
+Bare metal 서버, IaaS, PaaS 솔루션 등의 가용성 데이터를 수집하고 시각화 하며,  
+SMRC 사용자 포탈에게 수집된 데이터를 사용자 tenant 별로 제공하기 위한 API를 제공하는데 주 목적이 있습니다.
+
+
+## 수집 범위
+* Bare metal 서버.
+* IaaS: Red hat OpenStack, VMWare(vROps), Amazon Web Service EC2, Google Cloud Platform Compute Engine,
+
+## 데이터 수집 방식 및 기본 개념
+### Push 방식 데이터 수집:
+수집 에이전트를 모니터링 대상 OS에 설치 후 데이터를 CloudHub 시계열 DB로 Push하는 방식, 흔히 Agent 방식으로고도 불림.  
+주로, BM 서버, Azure HCI와 같이 내부 OS에 Agent를 설치하여 사용됨.
+
+### Pull 방식 데이터 수집:
+Collector 서버에서 수집 모듈이 Pull(Get) 방식으로 데이터를 수집하는 방식, 흔히 Agentless 방식으로고도 불림.
+주로, OpenStack, OpenShift, VMWare(vROps), Tanzu 혹은 IPMI, SNMP 등과 같이  
+Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 통하여 수집하는 경우에 사용됨.
+
 
 # Cloudhub 제품 구성
 ## 1. SaltStack
