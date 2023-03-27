@@ -5,6 +5,8 @@ Bare metal 서버, IaaS, PaaS 솔루션 등의 가용성 데이터를 수집하�
 SMRC 사용자 포탈에게 수집된 데이터를 사용자 tenant 별로 제공하기 위한 API를 제공하는데 주 목적이 있습니다.
 
 
+![cloudhub](./Cloudhub_Picture.PNG)
+
 ## 수집 범위
 * Bare metal 서버.
 * IaaS: Red hat OpenStack, VMWare(vROps), Amazon Web Service EC2, Google Cloud Platform Compute Engine,
