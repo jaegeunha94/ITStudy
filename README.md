@@ -155,3 +155,5 @@
 
 ### Typescript
 [never](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/never)
+
+[String Literal](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/StringLiteral)
