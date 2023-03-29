@@ -161,3 +161,5 @@
 [String Literal](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/StringLiteral)
 
 [Type Assertion](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/TypeAssertion)
+
+[Utility](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Utility)
