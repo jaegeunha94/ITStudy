@@ -168,4 +168,6 @@
 
 [Type Assertion](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/TypeAssertion)
 
+[unknown](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/unknown)
+
 [Utility](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Utility)
