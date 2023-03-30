@@ -160,6 +160,8 @@
 
 [Monkey Patch](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/MonkeyPatch)
 
+[Object](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/object)
+
 [String Literal](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/StringLiteral)
 
 [Type Assertion](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/TypeAssertion)
