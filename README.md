@@ -86,6 +86,8 @@
 
 [File - Own](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/File/Own)
 
+[Gluster](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Gluster)
+
 [Link](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Link)
 
 [Log](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Log)
