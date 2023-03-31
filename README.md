@@ -166,6 +166,8 @@
 
 [Object](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/object)
 
+[readonly](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/readonly)
+
 [String Literal](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/StringLiteral)
 
 [Type Assertion](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/TypeAssertion)
