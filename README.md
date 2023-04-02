@@ -158,6 +158,8 @@
 ### Typescript
 [Error](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Error)
 
+[Interface](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/Interface)
+
 [never](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/never)
 
 [Record - Utility](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Utility/Record)
