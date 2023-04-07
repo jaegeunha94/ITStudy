@@ -79,6 +79,8 @@
 ## 🔖OS
 [Multi Process, Multi Thread](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Process_Thread/MultiProcess_MultiThread)
 
+[Multi Tasking, Multi Processing](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Process_Thread/MultiTasking_MultiProcessing)
+
 [Process Thread](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Process_Thread)
 
 ### 리눅스
