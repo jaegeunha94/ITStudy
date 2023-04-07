@@ -77,6 +77,8 @@
 [FTP](https://github.com/jaegeunha94/ITStudy/tree/main/Network/Protocol/FTP)
 
 ## 🔖OS
+[Multi Process, Multi Thread](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Process_Thread/MultiProcess_MultiThread)
+
 [Process Thread](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Process_Thread)
 
 ### 리눅스
