@@ -164,6 +164,8 @@
 [Miniconda](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Python/Miniconda)
 
 ### Typescript
+[Covariant](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Covariant)
+
 [Error](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Error)
 
 [Interface](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Typescript/Type/Interface)
