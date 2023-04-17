@@ -40,6 +40,9 @@
 [Block Chain](https://github.com/jaegeunha94/ITStudy/tree/main/BlockChain)
 
 
+## 🔖Computer Architecture
+[CPU Architecture](https://github.com/jaegeunha94/ITStudy/tree/main/ComputerArchitecture/CPU_Architecture)
+
 ## 🔖CS
 [Block Non_block](https://github.com/jaegeunha94/ITStudy/tree/main/CS/Block_NonBlock)
 
