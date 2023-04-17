@@ -40,8 +40,10 @@ This makes them useful for identifying devices across different systems or netwo
 1. vi /etc/sysconfig/network-scripts/ifcfg-{네트워크 인터페이스}
 
 ```shell
+TYPE=Ethernet
 BOOTPROTO=dhcp
-DEVICE="{network interface}" // 그대로 알고 있으면 된다. 수정 안해도 된다.
+NAME=<network interface>
+DEVICE=<network interface> // 그대로 알고 있으면 된다. 수정 안해도 된다.
 ONBOOT=yes
 DNS1=8.8.8.8
 ...
@@ -56,11 +58,14 @@ DNS1=8.8.8.8
 
 ```
 // 수정
-BOOTPROTO="static" // IP 동적 할당
-DEVICE="{network interface}" // 그대로 알고 있으면 된다. 수정 안해도 된다.
-ONBOOT="yes" // 자동 어댑터 활성화
-IPADDR="192.168.111.100" // 자신이 원하는 IP로 변경해준다.
-NETMASK="255.255.255.0" // NETMASK 설정
+TYPE=Ethernet
+BOOTPROTO=static // IP 동적 할당
+NAME=<network interface>
+DEVICE=<network interface> // 그대로 알고 있으면 된다. 수정 안해도 된다.
+ONBOOT=yes // 자동 어댑터 활성화
+IPADDR=<IP Address> // 자신이 원하는 IP로 변경해준다.
+NETMASK=<NetMask> // NETMASK 설정
+GATEWAY=<Gateway>
 DNS1=8.8.8.8
 ...
 ```
