@@ -1,4 +1,4 @@
-![directory-230203](./directory-230203.PNG)
+![directory-230203](./directory-230203.png)
 
 # 리눅스 디렉토리
 * 리눅스의 디렉터리 구조는 FHS(Filesystem Hierarchy Standard)라는 표준 사양을 따릅니다. 자세한 내용은 다음 웹 페이지에서 PDF 파일을 내려받아 참고하면 됩니다.
