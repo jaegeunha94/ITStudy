@@ -63,6 +63,8 @@
 [Prettier](https://github.com/jaegeunha94/ITStudy/tree/main/Frontend/Code_Formatter/Prettier)
 
 ## 🔖Network
+[CORS](https://github.com/jaegeunha94/ITStudy/tree/main/Network/CORS)
+
 [DNS](https://github.com/jaegeunha94/ITStudy/tree/main/Network/DNS)
 
 [IPsec](https://github.com/jaegeunha94/ITStudy/tree/main/Network/Security/IPsec)
