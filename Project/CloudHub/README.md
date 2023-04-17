@@ -2,7 +2,7 @@
 운영하고 있는 대상 장비 혹은 Cloud 솔루션
 
 Bare metal 서버, IaaS, PaaS 솔루션 등의 가용성 데이터를 수집하고 시각화 하며,  
-SMRC 사용자 포탈에게 수집된 데이터를 사용자 tenant 별로 제공하기 위한 API를 제공하는데 주 목적이 있습니다.
+수집된 데이터를 사용자 tenant 별로 제공하기 위한 API를 제공하는데 주 목적이 있습니다.
 
 
 ![cloudhub](./Cloudhub_Picture.PNG)
