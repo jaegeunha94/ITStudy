@@ -149,6 +149,8 @@
 
 ## 🔖Programming Language
 ### Javascript
+[Async, Defer](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Javascript/ScriptTag/Async_Defer)
+
 [Binary Data](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Javascript/BinaryData)
 
 [Engyme](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Javascript/Jest/Engyme)
