@@ -65,3 +65,7 @@ async는 스크립트를 다운로드됐을 때 곧바로 평가 실행하고
 defer은 문서(HTML)을 완전히 다 읽은 후에 실행한다.
 
 async는 먼저 다운로드된 순서대로 실행하고 defer은 정의된 순서대로 실행된다.
+
+
+# 참고자료
+[webroadcast tistory](https://webroadcast.tistory.com/15)
