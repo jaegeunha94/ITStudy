@@ -103,6 +103,28 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 * 1.16.x
 
 
+# 모니터링 해본 장비
+## Baremetal
+* Dell장비
+  * 에스넷시스템 인성정보
+* Gigabyte 장비
+* Inspur 장비
+* Nvdia
+  * DGX 장비
+
+## IaaS
+* Red hat OpenStack
+* VMware(vROps).
+
+## PaaS
+* Red hat OpenShift
+  * Kubernetes와 유사
+* Tanzu.
+
+## Public Cloud
+* Azure HCI
+
+
 # 작업
 ## CentOS7
 ### CentOS7 - NGinx
