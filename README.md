@@ -90,6 +90,8 @@
 
 [Process Thread](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Process_Thread)
 
+[PXE Booting](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Boot/PXE)
+
 ### 리눅스
 [Alias](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Alias)
 
