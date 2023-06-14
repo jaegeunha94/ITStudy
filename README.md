@@ -115,7 +115,7 @@
 
 [Monitoring](https://github.com/jaegeunha94/ITStudy/tree/14578e5d2cc4017248c6712ca00d167c8ac82322/OS/Linux/Monitoring)
 
-[https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Network
+[Network](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Network)
 
 [Screen](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Screen)
 
