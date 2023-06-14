@@ -183,3 +183,8 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 
 ### [Add Support OS ToolTip in Collector Control Tab](https://github.com/snetsystems/cloudhub/commit/6478ca453aaf0f29c731484ada33c3efcafac75b)
 * Collector Control Tab에서 OS 운영체제 지원 범위 알려주는 ToolTip UI 추가
+
+
+### [Add Confirm Dialog Box when leaving infrastructure topology tab with unsaved data](https://github.com/snetsystems/cloudhub/commit/886a13bfef96e9e16dde0291e4aff66de7acbdae)
+* 변경 이유: Infrastructure topology 수정 후 저장 버튼을 클릭하지 않고 이동 시 저장 불가하므로, 사용자 UX개선을 위해 변경 필요
+* 브라우저에서 제공하는 confirm 기능을 사용하여 페이지 전환 시, 변경 사항을 저장할 지 물어보는 것으로 결정
