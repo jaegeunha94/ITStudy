@@ -1,4 +1,11 @@
 # [CloudHub](https://github.com/snetsystems/cloudhub)
+
+* [제품 설명](https://github.com/jaegeunha94/ITStudy/edit/main/Project/CloudHub/README.md#%EC%A0%9C%ED%92%88-%EC%84%A4%EB%AA%85)
+* [서버 작업](https://github.com/jaegeunha94/ITStudy/edit/main/Project/CloudHub/README.md#%EC%84%9C%EB%B2%84-%EC%9E%91%EC%97%85)
+* [Commit 내역](https://github.com/jaegeunha94/ITStudy/edit/main/Project/CloudHub/README.md#commit-%EB%82%B4%EC%97%AD)
+
+
+# 제품 설명
 운영하고 있는 대상 장비 혹은 Cloud 솔루션
 
 Bare metal 서버, IaaS, PaaS 솔루션 등의 가용성 데이터를 수집하고 시각화 하며,  
@@ -6,6 +13,7 @@ Bare metal 서버, IaaS, PaaS 솔루션 등의 가용성 데이터를 수집하�
 
 
 ![cloudhub](./Cloudhub_Picture.PNG)
+
 
 ## 수집 범위
 * Bare metal 서버.
@@ -125,9 +133,11 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 * Azure HCI
 
 
-# 작업
+# 서버 작업
 ## CentOS7
-### CentOS7 - NGinx
+* [Gluster 구성(Replica)을 통해 Collector Server간 Minion 상태 공유](https://github.com/jaegeunha94/ITStudy/tree/main/OS/Linux/Gluster)
+
+### NGinx
 * [HTTP 2.0 적용](https://github.com/jaegeunha94/ITStudy/tree/main/Server/Nginx/Configuration#cloudhub-nginx-%EC%84%A4%EC%A0%95)
 * [NGinx에 WebSocket용 옵션 설정](https://github.com/jaegeunha94/ITStudy/blob/main/Network/HTTP/Header/Upgrade/README.md#nginx-websocket-%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C-%EC%82%AC%EC%9A%A9-%EC%8B%9C-conf-%ED%8C%8C%EC%9D%BC-%EC%84%A4%EC%A0%95)
 * [NGinx WebSocket Timeout로 인한 proxy_read_timeout 옵션 적용](https://github.com/jaegeunha94/ITStudy/tree/main/Server/Nginx/Configuration#7-proxy_read_timeout)
