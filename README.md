@@ -163,7 +163,7 @@
 
 [Jest](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Javascript/Jest)
 
-[Throttling & Debouncing](https://github.com/jaegeunha94/ITStudy/tree/d3dc5e6d74de5094b3df649fd91d8ff5b07d29f0/ProgrammingLanguage/Javascript/Throttling_Debouncing)
+[Throttling & Debouncing](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/Javascript/Throttling_Debouncing)
 
 ### HTML
 [DocType](https://github.com/jaegeunha94/ITStudy/tree/main/ProgrammingLanguage/HTML/Doctype)
