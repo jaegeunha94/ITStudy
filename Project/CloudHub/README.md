@@ -225,3 +225,19 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 * 변경 내용: 브라우저에서 제공하는 window.confirm을 사용하여 페이지 전환 시, 변경 사항을 저장할 지 물어보는 것으로 수정
   * OK를 누를 경우 변경 사항 저장하고 페이지 이동
   * Cancel를 누를 경우 변경 사항 저장하지 않고 페이지 이동
+
+
+### [Telegraf 분산 처리를 위한 Salt Target Minion 지정 기능 추가](https://github.com/snetsystems/cloudhub/commit/9bb3c083adcfad3982432ff0950f55597a529fd8)
+* 변경 이유
+  * Nginx를 이용하여 Salt 분산을 할 경우, telegraf configuration 파일이 어디에 생성되었는지 알 수 없음
+* 변경 내용
+  * 특정 Collector server에 telegraf conf 파일을 추가/삭제 필요
+  * 변경 내용: Cloudhub 서버 옵션에 target minion을 추가하여 해당 Minion에 파일 생성
+
+
+ ### [Dashboard 생성 시 정렬 기준(오름차순/내림차순) 추가](https://github.com/snetsystems/cloudhub/commit/96104820e92f495c82a0701cb1e22b45035e9c94)
+ * 변경 이유
+   * 대시보드를 생성할 때 정렬 기준을 선택할 수 없음
+ * 변경 내용
+   * Dashboard 정렬 기준 설정하는 UI 추가
+   * Dashboard 정렬 기준 정하는 기능 추가
