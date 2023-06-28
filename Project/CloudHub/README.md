@@ -1,7 +1,6 @@
 # [CloudHub](https://github.com/snetsystems/cloudhub)
-
-* [제품 설명](https://github.com/jaegeunha94/ITStudy/tree/main/Project/CloudHub#%EC%A0%9C%ED%92%88-%EC%84%A4%EB%AA%85)
 * [개발 환경](https://github.com/jaegeunha94/ITStudy/tree/main/Project/CloudHub#cloudhub-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD)
+* [제품 설명](https://github.com/jaegeunha94/ITStudy/tree/main/Project/CloudHub#%EC%A0%9C%ED%92%88-%EC%84%A4%EB%AA%85)
 * [서버 작업](https://github.com/jaegeunha94/ITStudy/tree/main/Project/CloudHub#%EC%84%9C%EB%B2%84-%EC%9E%91%EC%97%85)
 * [Commit 내역](https://github.com/jaegeunha94/ITStudy/tree/main/Project/CloudHub#commit-%EB%82%B4%EC%97%AD)
 
@@ -9,6 +8,39 @@
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+
+
+
+# Cloudhub 개발 환경
+## 1. IDE
+### Visual Studio Code
+* 1.74.2
+
+
+## 2. 가상화
+### Virtual Box
+* VirtualBox-6.1.32-149290-Win
+
+## 3. 운영체제
+### CentOS
+* CentOS-7-x86_64-DVD-2009
+  * CentOS Linux release 7.9.2009 (Core)
+
+
+## 4. 프론트
+### node
+* node-v12.22.1-x64
+
+### React
+* ^16.12.0
+
+
+## 5. 백엔드
+### go 
+* 1.16.x
+
 <br/>
 <br/>
 
@@ -89,34 +121,6 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 클라우드 허브 제품은 서버, 어플리케이션, 가상 머신, 쿠버네티스 등을 모니터링해주는 제품,  
 또한 모니터링한 데이터를 시각화하여 보여주고 알람을 설정할 수 있음
 
-
-# Cloudhub 개발 환경
-## 1. IDE
-### Visual Studio Code
-* 1.74.2
-
-
-## 2. 가상화
-### Virtual Box
-* VirtualBox-6.1.32-149290-Win
-
-## 3. 운영체제
-### CentOS
-* CentOS-7-x86_64-DVD-2009
-  * CentOS Linux release 7.9.2009 (Core)
-
-
-## 4. 프론트
-### node
-* node-v12.22.1-x64
-
-### React
-* ^16.12.0
-
-
-## 5. 백엔드
-### go 
-* 1.16.x
 
 
 # 모니터링 해본 장비
